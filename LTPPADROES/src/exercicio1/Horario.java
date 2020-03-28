@@ -2,15 +2,17 @@ package exercicio1;
 
 public class Horario {
 	
-	private byte hora;
-	private byte minuto;
-	private byte segundo;
+	private byte hora = 8;
+	private byte minuto = 50;
+	private byte segundo = 35;
 	
 	public Horario(int hora, int minuto, int segundo) {
 		setHora(hora);
 		setMinuto(minuto);
 		setSegundo(segundo);
 	}
+
+
 
 	public byte getHora() {
 		return hora;

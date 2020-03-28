@@ -2,15 +2,16 @@ package exercicio1;
 
 public class Data {
 	
-	private byte dia;
-	private byte mes;
-	private short ano;
+	private byte dia = 28;
+	private byte mes = 03;
+	private short ano = 1997;
 	
 	public Data(int dia, int mes, int ano) {
 		setDia(dia);
 		setMes(mes);
 		setAno(ano);
 	}
+
 
 	public byte getDia() {
 		return dia;		
@@ -41,7 +42,7 @@ public class Data {
 	}
 	
 	private void setAno(int ano) {
-		if(ano > 2000 && ano<= 2099) {
+		if(ano > 0000 && ano<= 2099) {
 			this.ano = (short)ano;
 			
 		}
