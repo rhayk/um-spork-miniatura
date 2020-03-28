@@ -41,4 +41,11 @@ public class Horario {
 			this.segundo = (byte)segundo;
 		}
 	}
+
+	@Override
+	public String toString() {
+		return "Horário: " +hora+ ":" +minuto+ ":" +segundo;
+	}
+	
+	
 }
